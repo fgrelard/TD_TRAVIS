@@ -1,6 +1,9 @@
 language : python
-python :
-- "2.6"
-- "3.6"
+         python :
+                - "2.6"
+                - "3.6"
 script :
-- pytest
+       - pytest
+branches:
+    - TD_branch
+    
